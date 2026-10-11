@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --font-epilogue: 'Epilogue', serif, sans-serif;
+  --font-jakarta: 'Plus Jakarta Sans', sans-serif;
+  
+  --color-cr-primary: #422B20;
+  --color-cr-dark: #2D1E17;
+  --color-cr-cream: #FAF6F0;
+  --color-cr-warm-cream: #F7F1E8;
+  --color-cr-beige: #E9DCCB;
+  --color-cr-caramel: #B98255;
+  --color-cr-text-primary: #29231F;
+  --color-cr-text-secondary: #7A675B;
+  --color-cr-surface-low: #FFF2E1;
+  --color-cr-surface-card: #FFFFFF;
+}
+
+:root {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+.font-headline {
+  font-family: 'Epilogue', Georgia, serif;
+}
+
+.font-body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+.font-tabular {
+  font-family: 'Epilogue', monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}

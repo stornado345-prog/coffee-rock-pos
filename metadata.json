@@ -1,0 +1,6 @@
+{
+  "name": "Coffee Rock POS",
+  "description": "Specialty artisanal coffee tablet Point of Sale terminal with fast ordering, modifiers, and transactional payment flows.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
