@@ -109,6 +109,3 @@ Coffee Rock is currently under development. Features and implementation details 
 
 Developed as a coffee shop POS application project using Flutter and Dart.
 
-## 📄 License
-
-No license has been specified yet.
